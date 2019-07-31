@@ -17,6 +17,7 @@ namespace FriendOrganizer.UI.ViewModel
 
         public MainViewModel(IFriendDataService friendDataService)
         {
+            clientsCollection = new CollectionViewSource();
             Friends = new ObservableCollection<Friend>();
             _friendDataService = friendDataService;
         }
@@ -28,20 +29,19 @@ namespace FriendOrganizer.UI.ViewModel
             {
                 Friends.Add(friend);
             }
-            clientsCollection = new CollectionViewSource();
             clientsCollection.Source = Friends;
             clientsCollection.Filter += usersCollection_Filter;
         }
 
         public void Load()
         {
+            clientsCollection = new CollectionViewSource();
             var friends = _friendDataService.GetAllAsync().Result;
             Friends.Clear();
             foreach (var friend in friends)
             {
                 Friends.Add(friend);
             }
-            clientsCollection = new CollectionViewSource();
             clientsCollection.Source = Friends;
             clientsCollection.Filter += usersCollection_Filter;
         }
@@ -70,9 +70,15 @@ namespace FriendOrganizer.UI.ViewModel
         public ICollectionView SourceCollection
         {
             get
-            { 
-                    return this.clientsCollection.View;
+            {
+                clientsCollection.Source = Friends;
+                return this.clientsCollection.View;
             }
+            //set
+            //{
+            //    this.clientsCollection.View.Refresh();
+            //    OnPropertyChanged();
+            //}
         }
 
         public string FilterText
