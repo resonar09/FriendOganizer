@@ -20,12 +20,23 @@ namespace FriendOrganizer.UI.Data
 
 
 
-        public async Task<List<Friend>> GetAllAsync()
+        public Task<List<Friend>> GetAllAsync()
         {
-            using (var ctx = new FriendOrganizerDbContext())
-            {
-                return await ctx.Friends.AsNoTracking().ToListAsync();
-            }
+            //I turned this off so Thomas could test without the database
+            //using (var ctx = new FriendOrganizerDbContext())
+            //{
+            //    return await ctx.Friends.AsNoTracking().ToListAsync();
+            //}
+
+            //TODO: This will be changed back to the code above
+            List<Friend> list = new List<Friend>();
+            list.Add(new Friend { FirstName = "Thomas", LastName = "Huber" });
+
+            list.Add(new Friend { FirstName = "Andreas", LastName = "Boehler" });
+            list.Add(new Friend { FirstName = "Julia", LastName = "Huber" });
+            list.Add(new Friend { FirstName = "Chris", LastName = "Egin" });
+
+            return Task.Run(() => list);
         }
             
     }

@@ -22,11 +22,11 @@ namespace FriendOrganizer.UI
             _viewModel.Load();
         }
 
-        private async void MainWindow_Loaded(object sender, RoutedEventArgs e)
-        {
-            await _viewModel.LoadAsync();
+        //private async void MainWindow_Loaded(object sender, RoutedEventArgs e)
+        //{
+        //    await _viewModel.LoadAsync();
 
-        }
+        //}
 
 
     }
