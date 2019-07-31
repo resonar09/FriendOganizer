@@ -1,0 +1,16 @@
+C:\Code\PluralSight\MVVM\Enterprise\FriendOrganizer\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.DataAccess.dll
+C:\Code\PluralSight\MVVM\Enterprise\FriendOrganizer\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.DataAccess.pdb
+C:\Code\PluralSight\MVVM\Enterprise\FriendOrganizer\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.Model.dll
+C:\Code\PluralSight\MVVM\Enterprise\FriendOrganizer\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.Model.pdb
+C:\Code\PluralSight\MVVM\Enterprise\FriendOrganizer\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.csprojResolveAssemblyReference.cache
+C:\Code\PluralSight\MVVM\Enterprise\FriendOrganizer\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.csproj.CoreCompileInputs.cache
+C:\Code\PluralSight\MVVM\Enterprise\FriendOrganizer\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.dll
+C:\Code\PluralSight\MVVM\Enterprise\FriendOrganizer\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.pdb
+C:\Code\PluralSight\MVVM\Enterprise\FriendOrganizer\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.DataAccess.dll.config
+C:\Code\PluralSight\MVVM\Enterprise\FriendOrganizer\FriendOrganizer.DataAccess\bin\Debug\EntityFramework.dll
+C:\Code\PluralSight\MVVM\Enterprise\FriendOrganizer\FriendOrganizer.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Code\PluralSight\MVVM\Enterprise\FriendOrganizer\FriendOrganizer.DataAccess\bin\Debug\EntityFramework.xml
+C:\Code\PluralSight\MVVM\Enterprise\FriendOrganizer\FriendOrganizer.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Code\PluralSight\MVVM\Enterprise\FriendOrganizer\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.Migrations.InitialDatabase.resources
+C:\Code\PluralSight\MVVM\Enterprise\FriendOrganizer\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.csproj.GenerateResource.Cache
+C:\Code\PluralSight\MVVM\Enterprise\FriendOrganizer\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.Migrations.InitialDatabase1.resources
