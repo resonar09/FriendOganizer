@@ -74,11 +74,6 @@ namespace FriendOrganizer.UI.ViewModel
                 clientsCollection.Source = Friends;
                 return this.clientsCollection.View;
             }
-            //set
-            //{
-            //    this.clientsCollection.View.Refresh();
-            //    OnPropertyChanged();
-            //}
         }
 
         public string FilterText
